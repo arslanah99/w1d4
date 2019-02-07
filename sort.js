@@ -14,6 +14,14 @@ var students = [
   ];
 
   students.sort(function(a, b){
-      return b.name - a.name
+     var nameA = a.name
+     var nameB = b.name
+     if(nameA < nameB){
+         return -1
+     } else if(nameA > nameB){
+         return 1
+     } else{
+         a.age - b.age
+     }
   })
   console.log(students)
