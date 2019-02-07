@@ -26,6 +26,8 @@ findWaldo(["Alice", "Bob", "Waldo", "Winston"], actionWhenFound);
 
 
 
+
+
 // var list = [1, 2, 3, 4, 5];
 
 // list.forEach(function(x) {
